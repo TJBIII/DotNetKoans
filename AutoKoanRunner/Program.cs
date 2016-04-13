@@ -45,7 +45,7 @@ namespace AutoKoanRunner
 				Console.WriteLine("When you save a Koan, the Master will again ponder your work.");
 				Console.WriteLine("Press a key to exit...");
 				Console.WriteLine();
-				Console.ReadKey();
+				Console.Read();
 			}
 			finally
 			{
